@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, button {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#submit_button {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#submit_button:hover {
+    background-color: #333;
+}
+
+#result-container {
+    margin-top: 20px;
+}
+
+#class-results {
+    list-style-type: none;
+    padding: 0;
+}
